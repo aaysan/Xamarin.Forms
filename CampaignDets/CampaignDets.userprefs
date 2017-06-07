@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{4C7524C0-4DB8-45AC-9767-2B6C631142C3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CampaignDets/CampaignDetsPage.xaml">
+    <Files>
+      <File FileName="CampaignDets/CampaignDetsPage.xaml" Line="34" Column="1" />
+      <File FileName="CampaignDets/CampaignDetsPage.xaml.cs" Line="9" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CampaignDets.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6258B3E5-0661-4260-83E7-A0A5389DBE11" />
+</Properties>

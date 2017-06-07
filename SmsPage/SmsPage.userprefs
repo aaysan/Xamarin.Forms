@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{9527525E-AAB2-41EC-8FE0-46FF5F7CB400}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmsPage/SmsPage.xaml">
+    <Files>
+      <File FileName="SmsPage/SmsPage.xaml" Line="156" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SmsPage.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SmsPage.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.787B9811-AF06-4535-96F1-FD7998497AD6" />
+  <MultiItemStartupConfigurations />
+</Properties>

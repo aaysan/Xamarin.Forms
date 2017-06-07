@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:control="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+    xmlns:local="clr-namespace:CarouselTrial" x:Class="CarouselTrial.CarouselTrialPage"
+    >
+
+    <ContentPage.Content>
+        <Grid RowSpacing="0" ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height = ".1*"/>
+                <RowDefinition Height = ".9*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width = ".1*"/>
+                <ColumnDefinition Width = ".9*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Button  Grid.Row = "0" 
+            Grid.Column = "0" 
+            TextColor = "AntiqueWhite" 
+            Text = "B" BackgroundColor = "Blue"/>
+            <Label Grid.Row = "0" Grid.Column = "1" Text = "Kampanyalar" TextColor = "AntiqueWhite" HorizontalTextAlignment = "Center" VerticalTextAlignment = "Center" BackgroundColor = "Blue"/>
+
+            <control:CarouselView  Grid.Row = "1" Grid.ColumnSpan = "2" ItemsSource="{Binding campaings}" x:Name="CampaignCars" >
+                <control:CarouselView.ItemTemplate >
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height=".2*"/>
+                                <RowDefinition Height=".8*"/>
+                            </Grid.RowDefinitions>
+                            <Image Grid.RowSpan="2" Aspect="AspectFill" Source="{Binding imageurl}"/>
+                            <StackLayout Grid.Row = "0">
+                                <Label TextColor="AntiqueWhite" Text="{Binding header}" FontSize="16" HorizontalOptions="Start" VerticalOptions="EndAndExpand"/>
+                                <Label TextColor="AntiqueWhite" Text = "{Binding info}" FontSize="16" VerticalOptions = "StartAndExpand"/>
+                            </StackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </control:CarouselView.ItemTemplate>
+            </control:CarouselView>
+
+            <Button Text = "^" 
+            TextColor = "AntiqueWhite"
+            HeightRequest = "30" 
+            WidthRequest = "30"
+                Grid.Row = "1"
+                Grid.Column = "1"
+            VerticalOptions = "Start"
+            HorizontalOptions = "Center"
+            FontSize = "25"
+            />
+            <Button Text = "D"
+                TextColor = "AntiqueWhite"
+                HeightRequest = "30"
+                WidthRequest = "30"
+                Grid.Row = "1"
+                Grid.Column = "1"
+                VerticalOptions = "End"
+                HorizontalOptions = "Center"
+                FontSize = "25"
+                BorderRadius = "0"
+                BorderWidth = "0"
+            />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{6311977F-C767-4E63-90F4-C8C202805AD2}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarouselTrial/CarouselTrialPage.xaml">
+    <Files>
+      <File FileName="CarouselTrial/CarouselTrialPage.xaml" Line="16" Column="46" />
+      <File FileName="CarouselTrial/App.xaml.cs" Line="11" Column="47" />
+      <File FileName="CarouselTrial/obj/Debug/CarouselTrial.CarouselTrialPage.xaml.g.cs" Line="22" Column="1" />
+      <File FileName="CarouselTrial/CarouselTrialPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/maysan/Projects/CarouselTrial/CarouselTrial/CarouselTrialPage.xaml" relfile="CarouselTrial/CarouselTrialPage.xaml" line="27" column="26" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CarouselTrial.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.CarouselTrial.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6258B3E5-0661-4260-83E7-A0A5389DBE11" />
+</Properties>

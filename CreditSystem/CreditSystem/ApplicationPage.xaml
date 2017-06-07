@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CreditSystem.ApplicationPage">
+	<ContentPage.Content>
+        <Grid RowSpacing = "0" BackgroundColor = "#E2E2E2">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height = "0.7*"/>
+                <RowDefinition Height = "0.3*"/>
+            </Grid.RowDefinitions>
+
+            <TableView Grid.Row = "0" Intent = "Form">
+                <TableView.Root>
+                    <TableSection Title = "Finansal Urun" >
+                        <ViewCell >
+                            <Picker x:Name = "productpicker" BackgroundColor ="Transparent" />
+                        </ViewCell>
+                    </TableSection>
+
+                    <TableSection Title = "Bilesenler">
+                        <ViewCell>
+                            <StackLayout Orientation = "Horizontal">
+                                <Button Text = "Bilesen 1" Clicked = "Handle_ClickedButton1" x:Name = "Button1" HorizontalOptions = "FillAndExpand" TextColor = "Gray"/>
+                                <Button Text = "Bilesen 2" Clicked = "Handle_ClickedButton2" x:Name = "Button2" HorizontalOptions = "FillAndExpand" TextColor = "Gray"/>
+                                <Button Text = "Bilesen 3" Clicked = "Handle_ClickedButton3" x:Name = "Button3" HorizontalOptions = "FillAndExpand" TextColor = "Gray"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+
+                    <TableSection Title = "Vade">
+                        <ViewCell>
+                            <Picker Title = "Seciniz" BackgroundColor ="Transparent"  />
+                        </ViewCell>
+                    </TableSection>
+                </TableView.Root>
+            </TableView>
+
+              <Grid Grid.Row = "1" BackgroundColor = "#0F67C0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height = "0.25*"/>
+                    <RowDefinition Height = "0.25*"/>
+                    <RowDefinition Height = "0.5*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width = "0.4*"/>
+                    <ColumnDefinition Width = "0.2*"/>         
+                    <ColumnDefinition Width = "0.4*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text = "Kredi Tutari"
+                    TextColor = "White"
+                    FontSize = "20"
+                    HorizontalTextAlignment = "Center"
+                    VerticalTextAlignment = "Center"
+                    Grid.Row = "0"
+                    Grid.Column = "0"
+                />
+                <Label Text = "Faiz"
+                    TextColor = "White"
+                    FontSize = "20"
+                    HorizontalTextAlignment = "Center"
+                    VerticalTextAlignment = "Center"
+                    Grid.Row = "0"
+                    Grid.Column = "1"
+                />
+
+                <Label Text = "Aylık Taksit"
+                    TextColor = "White"
+                    FontSize = "20"
+                    HorizontalTextAlignment = "Center"
+                    VerticalTextAlignment = "Center"
+                    Grid.Row = "0"
+                    Grid.Column = "2"
+                />
+
+                <Label x:Name = "credit"
+                    Grid.Row = "1"
+                    Grid.Column = "0"
+                    TextColor = "White"
+                    FontSize = "15"
+                    HorizontalTextAlignment = "Center"
+                    VerticalTextAlignment = "Center"
+                />
+
+                 <Label x:Name = "rate"
+                    Grid.Row = "1"
+                    Grid.Column = "1"
+                    TextColor = "White"
+                    FontSize = "15"
+                    HorizontalTextAlignment = "Center"
+                    VerticalTextAlignment = "Center"
+                />
+
+                 <Label x:Name = "monthlypayment"
+                    Grid.Row = "1"
+                    Grid.Column = "2"
+                    TextColor = "White"
+                    FontSize = "15"
+                    HorizontalTextAlignment = "Center"
+                    VerticalTextAlignment = "Center"
+                />
+
+                <Button Grid.ColumnSpan = "3"
+                    Grid.Row = "2"
+                    TextColor = "White"
+                    Text = "          BASVUR          "
+                    HorizontalOptions = "CenterAndExpand"
+                    VerticalOptions = "StartAndExpand"
+                    FontSize = "25"
+                    BorderColor = "White"
+                    BorderWidth = "1"
+                    BorderRadius = "0"
+                    Clicked = "Handle_ClickedDoneButton"
+                />
+                
+            </Grid>
+        </Grid>
+	</ContentPage.Content>
+</ContentPage>

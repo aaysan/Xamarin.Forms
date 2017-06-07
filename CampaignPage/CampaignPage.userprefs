@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{D04134F6-7D21-4441-8F5E-DA8556BEB421}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CampaignPage/CampPage.xaml">
+    <Files>
+      <File FileName="CampaignPage/Campaings.cs" Line="5" Column="24" />
+      <File FileName="CampaignPage/CampPage.xaml.cs" Line="32" Column="9" />
+      <File FileName="CampaignPage/CampPage.xaml" Line="8" Column="5" />
+      <File FileName="iOS/AppDelegate.cs" Line="19" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CampaignPage.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CampaignPage.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6258B3E5-0661-4260-83E7-A0A5389DBE11" />
+  <MultiItemStartupConfigurations />
+</Properties>

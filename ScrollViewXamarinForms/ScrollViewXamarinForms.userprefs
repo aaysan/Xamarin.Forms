@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{02EEBA4C-181A-415E-84D7-17F4464A2868}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ScrollViewXamarinForms/ScrollViewPage.xaml">
+    <Files>
+      <File FileName="ScrollViewXamarinForms/ScrollViewPage.xaml" Line="6" Column="1" />
+      <File FileName="ScrollViewXamarinForms/ScrollViewPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ScrollViewXamarinForms/App.xaml" Line="19" Column="1" />
+      <File FileName="ScrollViewXamarinForms/App.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ScrollViewXamarinForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6258B3E5-0661-4260-83E7-A0A5389DBE11" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ScrollViewXamarinForms.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{E48507B8-3124-457B-ACC9-33CF9FA148AA}|Default">
+  <MonoDevelop.Ide.ItemProperties.SimpleListView.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6258B3E5-0661-4260-83E7-A0A5389DBE11" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimpleListView/SimpleList.cs">
+    <Files>
+      <File FileName="SimpleListView/App.xaml" Line="19" Column="1" />
+      <File FileName="SimpleListView/SimpleList.cs" Line="1" Column="1" />
+      <File FileName="SimpleListView/Data.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.SimpleListView.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

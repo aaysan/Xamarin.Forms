@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{BF9D6833-2541-439C-9564-03287F9F5407}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CreditSystem/ProductDetsForm.xaml">
+    <Files>
+      <File FileName="CreditSystem/ProductDetsForm.xaml" Line="25" Column="32" />
+      <File FileName="CreditSystem/App.xaml.cs" Line="11" Column="62" />
+      <File FileName="CreditSystem/obj/Debug/CreditSystem.ProductDetsForm.xaml.g.cs" Line="43" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CreditSystem.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6258B3E5-0661-4260-83E7-A0A5389DBE11" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CreditSystem.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>
